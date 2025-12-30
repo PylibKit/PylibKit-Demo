@@ -1,41 +1,35 @@
 <a id="top"></a>
 
 <div align="center">
-  <a href="#english">
+  <a href="docs/index.md">
     <img src="assets/hero.svg" alt="PylibKit Demo hero" width="100%" />
   </a>
   <h1>PylibKit Demo</h1>
-  <p>English-first README with quick links, a visual map, and short translations.</p>
+  <p>English-first landing page. Separate language pages live in <code>docs/</code>.</p>
   <p>
-    <a href="#english">English</a> •
-    <a href="#korean">한국어</a> •
-    <a href="#japanese">日本語</a>
+    <a href="docs/index.md">English</a> •
+    <a href="docs/ko.md">한국어</a> •
+    <a href="docs/ja.md">日本語</a>
   </p>
   <p>
-    <a href="#projects">Projects</a> •
-    <a href="#quick-start">Quick Start</a> •
-    <a href="#structure">Structure</a> •
-    <a href="#notes">Notes</a>
+    <a href="docs/index.md#projects">Projects</a> •
+    <a href="docs/index.md#quick-start">Quick Start</a> •
+    <a href="docs/index.md#structure">Structure</a>
   </p>
 </div>
 
 ---
 
-<a id="english"></a>
-## English
+## Start Here
+- Read the full English page: <a href="docs/index.md">docs/index.md</a>
+- Jump to translations: <a href="docs/ko.md">Korean</a> / <a href="docs/ja.md">Japanese</a>
 
-### Overview
-- This repository is a small collection of iOS demo folders.
-- Start with the project list below and explore each folder.
-- The README is intentionally compact and navigable.
-
-### Project Map
-<a href="#projects">
+## Project Map
+<a href="docs/index.md#projects">
   <img src="assets/map.svg" alt="Project map" width="100%" />
 </a>
 
-<a id="projects"></a>
-### Projects
+## Projects
 <table>
   <tr>
     <td align="center" width="50%">
@@ -49,56 +43,13 @@
   </tr>
 </table>
 
-<a id="quick-start"></a>
-### Quick Start
-1. Pick a demo folder: <a href="fastAPI-ios/">fastAPI-ios</a> or <a href="pyatv-ios/">pyatv-ios</a>.
-2. Open the folder and look for project files or local docs.
-3. Follow the steps inside the selected demo.
-
-<a id="structure"></a>
-### Structure
+## Structure
 ```
 PylibKit-Demo/
 ├─ fastAPI-ios/
 ├─ pyatv-ios/
-└─ assets/
+├─ assets/
+└─ docs/
 ```
 
-<a id="notes"></a>
-### Notes
-- English is the primary language; Korean and Japanese summaries follow.
-- Use the navigation links to jump between sections.
-
-[Back to top](#top)
-
----
-
-<a id="korean"></a>
-## 한국어
-
-### 요약
-- 이 저장소는 iOS 데모 폴더 모음입니다.
-- 각 폴더에서 프로젝트 파일과 안내 문서를 확인하세요.
-
-### 바로가기
-- 프로젝트: <a href="#projects">Projects</a>
-- 빠른 시작: <a href="#quick-start">Quick Start</a>
-- 구조: <a href="#structure">Structure</a>
-
-[위로](#top)
-
----
-
-<a id="japanese"></a>
-## 日本語
-
-### まとめ
-- このリポジトリは iOS デモ用フォルダの集合です。
-- 各フォルダ内のプロジェクトやドキュメントを参照してください。
-
-### クイックリンク
-- プロジェクト: <a href="#projects">Projects</a>
-- クイックスタート: <a href="#quick-start">Quick Start</a>
-- 構成: <a href="#structure">Structure</a>
-
-[トップへ](#top)
+[Go to English page](docs/index.md)
