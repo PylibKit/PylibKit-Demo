@@ -1,0 +1,35 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PylibKit Demo hero image">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F6F7FB"/>
+      <stop offset="100%" stop-color="#E7F2FF"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1B5FBF"/>
+      <stop offset="100%" stop-color="#2EC4B6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#g)"/>
+
+  <circle cx="1020" cy="110" r="70" fill="#D7E8FF"/>
+  <circle cx="1120" cy="220" r="95" fill="#C8F1EC"/>
+  <circle cx="980" cy="280" r="60" fill="#EAD8FF"/>
+
+  <rect x="80" y="70" width="520" height="280" rx="22" fill="#FFFFFF" stroke="#DDE7F5"/>
+  <rect x="110" y="110" width="210" height="90" rx="14" fill="#F1F7FF" stroke="#D2E3FF"/>
+  <rect x="350" y="110" width="210" height="90" rx="14" fill="#F7FFFD" stroke="#CFEFE8"/>
+  <rect x="110" y="230" width="450" height="90" rx="14" fill="#FFF9F0" stroke="#F6E3C6"/>
+
+  <text x="120" y="165" font-family="Verdana, Arial, sans-serif" font-size="18" fill="#1B5FBF">fastAPI-ios</text>
+  <text x="360" y="165" font-family="Verdana, Arial, sans-serif" font-size="18" fill="#1B5FBF">pyatv-ios</text>
+  <text x="120" y="285" font-family="Verdana, Arial, sans-serif" font-size="16" fill="#8A6D3B">Python on iOS demos</text>
+
+  <rect x="640" y="120" width="480" height="22" rx="11" fill="url(#b)"/>
+  <text x="640" y="205" font-family="Verdana, Arial, sans-serif" font-size="44" fill="#0B1B2B">PylibKit Demo</text>
+  <text x="640" y="245" font-family="Verdana, Arial, sans-serif" font-size="18" fill="#3B5163">A small, focused playground for iOS Python demos</text>
+
+  <path d="M640 270 C 720 270, 760 320, 840 320" stroke="#1B5FBF" stroke-width="3" fill="none"/>
+  <circle cx="640" cy="270" r="6" fill="#1B5FBF"/>
+  <circle cx="840" cy="320" r="6" fill="#2EC4B6"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Project map">
+  <defs>
+    <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F9FBFF"/>
+      <stop offset="100%" stop-color="#F1FFF9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="24" fill="url(#g2)"/>
+
+  <rect x="90" y="70" width="420" height="160" rx="20" fill="#FFFFFF" stroke="#DDE7F5"/>
+  <rect x="690" y="70" width="420" height="160" rx="20" fill="#FFFFFF" stroke="#DDE7F5"/>
+
+  <text x="140" y="135" font-family="Verdana, Arial, sans-serif" font-size="22" fill="#1B5FBF">fastAPI-ios</text>
+  <text x="140" y="170" font-family="Verdana, Arial, sans-serif" font-size="14" fill="#3B5163">Demo folder</text>
+
+  <text x="740" y="135" font-family="Verdana, Arial, sans-serif" font-size="22" fill="#1B5FBF">pyatv-ios</text>
+  <text x="740" y="170" font-family="Verdana, Arial, sans-serif" font-size="14" fill="#3B5163">Demo folder</text>
+
+  <path d="M510 150 L 690 150" stroke="#2EC4B6" stroke-width="3"/>
+  <circle cx="510" cy="150" r="5" fill="#2EC4B6"/>
+  <circle cx="690" cy="150" r="5" fill="#2EC4B6"/>
+
+  <text x="520" y="125" font-family="Verdana, Arial, sans-serif" font-size="12" fill="#6A7B8A">two demos</text>
+</svg>
