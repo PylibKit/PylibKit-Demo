@@ -1,5 +1,5 @@
 import SwiftUI
-import PylibKit_iOS
+import PylibKit
 
 struct DeviceListView: View {
     let devices: [Pyatv.Interface.BaseconfigInstance]

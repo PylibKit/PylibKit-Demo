@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D005F57E2EE807B80071AF38 /* PylibKit-ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D005F57D2EE807B80071AF38 /* PylibKit-ios.xcframework */; };
-		D005F57F2EE807B80071AF38 /* PylibKit-ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D005F57D2EE807B80071AF38 /* PylibKit-ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D06B19982F0F0EDB00085221 /* PylibKit-ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D06B19972F0F0EDB00085221 /* PylibKit-ios.xcframework */; };
+		D06B19992F0F0EDB00085221 /* PylibKit-ios.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D06B19972F0F0EDB00085221 /* PylibKit-ios.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D005F57F2EE807B80071AF38 /* PylibKit-ios.xcframework in Embed Frameworks */,
+				D06B19992F0F0EDB00085221 /* PylibKit-ios.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,10 +43,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D005F57D2EE807B80071AF38 /* PylibKit-ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "PylibKit-ios.xcframework"; sourceTree = "<group>"; };
 		D06A6E5C2EE6A8010002D0BA /* fastAPI-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fastAPI-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06A6E692EE6A8020002D0BA /* fastAPI-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastAPI-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D06A6E732EE6A8020002D0BA /* fastAPI-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastAPI-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06B19972F0F0EDB00085221 /* PylibKit-ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "PylibKit-ios.xcframework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D005F57E2EE807B80071AF38 /* PylibKit-ios.xcframework in Frameworks */,
+				D06B19982F0F0EDB00085221 /* PylibKit-ios.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 		D06A6E862EE6AA220002D0BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D005F57D2EE807B80071AF38 /* PylibKit-ios.xcframework */,
+				D06B19972F0F0EDB00085221 /* PylibKit-ios.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

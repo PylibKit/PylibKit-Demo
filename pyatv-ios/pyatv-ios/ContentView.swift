@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Combine
-import PylibKit_iOS
+import PylibKit
 
 
 @MainActor

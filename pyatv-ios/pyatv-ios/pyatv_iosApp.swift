@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PylibKit_iOS
+import PylibKit
 
 @main
 struct pyatv_iosApp: App {

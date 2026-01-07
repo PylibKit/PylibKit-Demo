@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import PylibKit_iOS
+import PylibKit
 import Combine
 
 struct ContentView: View {
